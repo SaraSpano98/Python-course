@@ -1,0 +1,5 @@
+1 9.1 196376 The Shawshank Redemption (1994) 
+2 9.0 139085 The Godfather: Part II (1974) 
+3 8.8 81507 Casablanca (1942)
+4 8.5 139085 Spartacus (1974)
+5 8.2 81507 The apartment (1942)

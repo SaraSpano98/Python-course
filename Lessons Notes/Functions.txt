@@ -1,0 +1,17 @@
+APPUNTI SULLE FUNZIONI METODI IN PYTHON
+
+Definire una funzione: def func_name(param): return result
+Funzione con parametro di default: def greet(name = "World"): print(f"Hello, {name}!")
+Funzione con parametri multipli: def func(param1, param2, param3): pass
+Funzione con argomenti variabili: def sum_all(*args): return sum(args)
+Funzione con argomenti parole chiave: def print_info(**kwargs): for k, v in kwargs.items(): print(f"{k}: {v}")
+Funzione Lambda: square= lambda x: x**2
+Ritorno di valori multipli: def func(): return 1, 2, 3
+Nested function: def outer(): def inner(): pass; return inner
+Chiusura: def outer(x): def inner(y): return x + y; return inner
+Decoratore: def decorator(func): def wrapper(*args, **kwargs): return func(*args, **kwargs); return wrapper
+Applica decoratore: @decorator def function(): pass
+Funzione parziale: from funtools import partial; add_five = partial(add, 5)
+Funzione recursiva: def factorial(n): return 1 if n == 0 else n* factorial(n -1)
+Generator function: def gen(): yield items
+Funzione asincrona: asynx def async_func(): await asyncio.sleep(1)

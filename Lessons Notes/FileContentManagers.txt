@@ -1,0 +1,17 @@
+APPUNTI DI IMPORTARE FILE IN PYTHON:
+
+Open file: with open("file.txt", "r") as f: content= f.read()
+Write to file: with write("file.txt", "w") as f: f.write("content")
+Append to file: with open("file.txt", "a") as f: f.write("new content")
+Read lines from file: with open("file.txt", "r") as f: lines= f.readlines()
+Write lines from file: with open("file.txt", "r") as f: lines= f.writelines(lines)
+Read file line by line: with open("file.txt", "r") as f: for line in f: print(line)
+Check if file exists: import os; os.path.exists("file.txt")
+Get file size: import os; os.path.getsize("file.txt")
+Delete file: import os; os.remove("file.txt")
+Rename file: import os; os.rename("old_name.txt", "new_name.txt")
+Create directory: import os; os.mkdir("new directory")
+Change directory: import os; os.chdir("path/to/directory")
+Get current working directory: import os; cwd = os.getcwd()
+List directory contents: import os; files= os.listdir("directory")
+Walk directory tree: import os; for root, dirs, files in os.walk("directory"): print(root, dirs, files)

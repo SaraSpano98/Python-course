@@ -1,0 +1,9 @@
+def ordinata(lista):
+    return lista == sorted(lista)
+
+
+# Esempi di utilizzo
+print(ordinata([1, 2, 3, 4]))
+print(ordinata([4, 3, 2, 1]))
+print(ordinata([5]))
+print(ordinata([]))

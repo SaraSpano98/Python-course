@@ -1,0 +1,5 @@
+Python ordina secondo l'algoritmo Timsort ovvero: insertionsort, per liste piccole
+
+Con liste grandi: mergesort
+
+Esistono altri algoritmi di ordinamento: bubblesort, insertionsort, mergesort, quiksort

@@ -1,0 +1,65 @@
+In generale, la libreria standard di Python include molte funzioni integrate che possono essere utilizzate nel codice senza dover importare moduli aggiuntivi. Alcuni esempi comuni di funzioni integrate includono:
+
+👉🏻 abs() : Restituisce il valore assoluto di un numero.
+
+👉🏻 all() : Restituisce True se tutti gli elementi di un iterabile sono True, False in caso contrario.
+
+👉🏻 any() : Restituisce True se un qualsiasi elemento di un iterabile è True, False in caso contrario.
+
+👉🏻 bin() : Converte un intero in una stringa binaria.
+
+👉🏻 bool() : Converte un valore in un valore booleano.
+
+👉🏻 chr() : Restituisce la rappresentazione in forma di stringa di un carattere Unicode.
+
+👉🏻 dir(): Restituisce un elenco di attributi e metodi per un oggetto.
+
+👉🏻enumerate(): Restituisce un oggetto enumerato, che contiene una sequenza di tuple contenenti l'indice e il valore di ogni elemento di un iterabile.
+
+👉🏻 filter(): Restituisce un iteratore per gli elementi di un iterabile per i quali una condizione è vera.
+
+👉🏻 float(): Converte un valore in un numero a virgola mobile.
+
+👉🏻 format(): Formatta una stringa utilizzando gli specificatori di formato.
+
+👉🏻 hash(): Restituisce il valore hash di un oggetto.
+
+👉🏻 int(): Converte un valore in un intero.
+
+👉🏻 isinstance(): restituisce True se un oggetto è un'istanza di un tipo specificato e False in caso contrario.
+
+👉🏻 len(): restituisce la lunghezza di un oggetto.
+
+👉🏻 list(): converte un iterabile in una lista.
+
+👉🏻 map(): restituisce un iteratore che applica una funzione a ciascun elemento di un iterabile.
+
+👉🏻 max(): restituisce il valore massimo di un iterabile.
+
+👉🏻 min(): restituisce il valore minimo di un iterabile.
+
+👉🏻 next(): restituisce l'elemento successivo di un iteratore.
+
+👉🏻 open(): apre un file e restituisce un oggetto file.
+
+👉🏻 ord() : Restituisce il punto di codice Unicode per un carattere.
+
+👉🏻 print() : Stampa un messaggio sullo standard output.
+
+👉🏻 range() : Restituisce una sequenza di numeri.
+
+👉🏻 repr() : Restituisce una rappresentazione in formato stringa di un oggetto.
+
+👉🏻 round() : Arrotonda un numero a un numero specificato di cifre decimali.
+
+👉🏻 set() : Crea un oggetto set.
+
+👉🏻 sorted() : Restituisce un elenco ordinato da un iterabile.
+
+👉🏻 str() : Converte un valore in una stringa.
+
+👉🏻 sum() : Restituisce la somma degli elementi in un iterabile.
+
+👉🏻 type() : Restituisce il tipo di un oggetto.
+
+👉🏻 zip() : Restituisce un iteratore che combina elementi di più iterabili.

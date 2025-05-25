@@ -1,0 +1,27 @@
+APPUNTI NUMERI E MATEMATICA DI PYTHON:
+
+Addizione: result= 5 + 3
+Sottrazione: result = 6 - 1
+Moltiplicazione: result = 14 * 2 
+Divisione: result = 14 / 2
+Divisione intera: result= 14 // 2
+Modulo: resto = 17 % 3
+Esponenziale: result= 2**3 (potenza)
+Valore assoluto: abs(-5)
+Numero tondo: round(3.7)
+Arrotonda a cifre decimali specifiche: round(3.14159,2)
+Divisione del piano: import math; math.flor(5.7)
+Divisione del soffitto: import math; math.ceil(5.2)
+Radice quadrata: import math; math.sqrt(16)
+Calcolo pi greco: import math; import.pi
+Calcola e: import math; math.e 
+Logaritmo (base e): import math; import.log(10)
+Logaritmo (base 10): import math; math.log10(100)
+Seno: import math; math.sin(math.pi/2)
+Coseno: import math; math.cos(math.pi)
+Tangente: impor math; math.tan(math.pi/4)
+Gradi in radianti: import math; math.radians(180)
+Radianti in gradi: import math; math.degrees(math.pi)
+Genera numero casuale: import math; math.random()
+Genere un numero intero casuale: import random; random.randint(1,10)
+Scegli un elemento casuale: import random; random.choice([1,2,3,4,5])

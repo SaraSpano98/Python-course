@@ -1,0 +1,12 @@
+APPUNTI ECCEZIONI E HANDLING ERRORI IN PYTHON:
+
+Try-except block: try: do_something() except Exception as e: handle_error(e)
+Try-except-else block: try: result = do_something() except Exception: handle_error() else: use_result(result)
+Try-except-else-finally block: try: result = do_something() except Exception: handle_error() finally: cleanup()
+Catch multiple exceptions: try: do_something() except(TypeError, ValueError) as e: handle_error(e)
+Raise exceptiond: raise ValueError("Invalid input")
+Raise from: raise ValueError("Invalid input") from original_error
+Assert statement: assert condition, "Erroe message"
+Custom all exceptions: try: do_something() except Exception as e: handle_any_error(e)
+Re-raise exception: try: do_something() except Exception as e: raise RunTimeError("Operation failed")
+Exception chaining: try: do_something() except Exception ad e: raise RunTimeError("Operation failed") from e
