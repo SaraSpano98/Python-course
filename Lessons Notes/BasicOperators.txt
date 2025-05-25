@@ -1,0 +1,17 @@
+APPUNTI OPERATI BASICI PYTHON:
+
+Print in console: 
+Get user input:
+String concatenation:
+string formatting (f-string): print("Hello, {name}!")
+String formatting (.format): print("Hello, {}!".format(name))
+String formatting (%): print("Hello, %s!" %name)
+Type conversion (to int): age = int("25")
+Type conversion (to float): price = float("13.99")
+Type conversion (to string): age_str = str(25)
+Check type: type(variabile)
+Get lenght: len(sequence) 
+Get memory address: id(object)
+Delete variable: del nome_variabile
+Check if object is instance of class: isinstance(object, class)
+Get all attributes of an object: dir(object)

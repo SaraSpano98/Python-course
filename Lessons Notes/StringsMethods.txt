@@ -1,0 +1,51 @@
+PYTHON STRINGHE METODI APPUNTI
+
+INPUT                METODI              OUTPUT
+'hello WORLD'        .capitalize()       Hello world  
+'HELLO WORLD'        .lower()            hello world
+'hello world'        .upper()            HELLO WORLD
+'Python'             .center(10, '*')    **Python**
+'HELLO WORLD'        .count('L')         3
+'HELLO WORLD'        .index('O')         4
+'HELLO WORLD'        .find('OR')         7
+'31/01/2022'         .replace('/', '-')  31-01-2022
+'31/01/2022'         .split('/')         ['31', '01', '2022']
+'abc123'             .isalnum()          True
+'12345'              .isnumeric()        True
+'hello world'        .islower()          True
+'HELLO WORLD'        .isupper()          True
+
+_____________________________________________________________________________
+
+SINTASSI BASE STRINGHE METODI:
+
+Create string: s = "Hello, World!"
+Multiline string: s = """This is a multiline string"""
+Raw string: s = r"C:\Users\John"
+String repetition: "Hello"*3
+String indexing: first_char = s[0]
+String slicing: substring = s[1:5]
+Reverse string: reversed_string = s[::-1]
+Convert to uppercase: s.upper()
+Convert to lowercase: s.lower()
+Capitalize string: s.capitalize()
+Title case: s.title()
+Swap case: s.swapcase()
+Strip whitespace: s.strip()
+Left strip: s.1strip()
+Right strip: s.rstrip()
+Replace substring: s.replace("old", "new")
+Split string: parts = s.split(", ")
+Join strings: ",".join(["a", "b", "c"])
+Check if string starts with: s.startswith("Hello")
+Check if string end with: s.endswith("Hello")
+Find substring: inde = s.find("Hello")
+Count occurrences: count = s.count("1")
+Check if string is alpahanumeric: s.isalnum()
+Check if string is digit: s.isdigit()
+Check if string is alphabetic: s.isalpha()
+Check if string is lowercase: s.islower()
+Check if string is uppercase: s.isupper()
+Check if string is title case: s.istitle()
+Check if string is whitespace: s.isspace()
+Center string: s.center(20, "*")

@@ -1,0 +1,46 @@
+PYTHON LISTE METODI APPUNTI:
+
+INPUT          METODI           OUTPUT
+[1, 2, 3]              .append(4)               [1, 2, 3, 4]
+[1, 2, 3]              .clear()                 []
+[1, 2, 3]              .copy()                  [1, 2, 3]
+[1, 2, 3]              .count(2)                1        (COUNT OCCURRENCES)
+[1, 2, 3]              .extend([4, 5])          [1, 2, 3, 4, 5]
+[1, 2, 3]              .index(2)                1  (FIND)
+[1, 2, 3]              .insert(1, 'a')          [1, 'a', 2, 3]
+[1, 2, 3]              .pop()                   3 (and list becomes [1, 2])
+[1, 2, 3]              .pop(1)                  2 (and list becomes [1, 3])   (REMOVE BY INDEX)
+[1, 2, 3]              .remove(2)               [1, 3]  (REMOVE BY VALUE)
+[1, 2, 3]              .reverse()               [2, 1, 3]
+[3, 1, 2]              .sort()                  [1, 2, 3]
+[3, 1, 2]              .sort(reverse= True)     [3, 1, 2]    (SORT LIST IN REVERSE)
+[1, 2, 3]              + [4, 5]                 [1, 2, 3, 4, 5]
+[1, 2, 3]              * 2                      [1, 2, 3, 1, 2, 3]
+[1, 2, 3]              [1]                      2  
+[1, 2, 3]              [:2]                     [1, 2]
+[1, 2, 3]              [1:]                     [2, 3]
+len([1, 2, 3])         len()                    3
+
+(uno spiega la posizione del valore, l'altro attraverso il valore ti trova la posizione)
+____________________________________________________________________________________
+
+
+
+Creare una lista: lst = [1, 2, 3, 4, 5]
+Creare una lista con range: 1st = list(range(1, 6))
+Accesso agli elementi: element = lst[0]
+Slice lista: subset = lst[1:4]
+Shallow copy: import copy; new_lst = copy.copy(lst)
+Deep copy: import copy; new_lst = copy.deepcopy(lst)
+List comprehension: squares = [x**2 for x in range(10)]
+Filter with list comprehension: evens = [x for x in range(10) if x % 2 == 0]
+Nested list comprehension: matrix = [[i*j for j in range(5) for i in range(5)]]
+Flatten list comprehension: flattened = [item for sublist in nested_list for item in sublist]
+Zip list: zipped = list(zip(list1, list2))
+Unzip lists: unziped = list(zip(*zipped))
+Check if element in list: 5 in 1st
+Get max value: max(1_st)
+Get min value: min(1_st)
+Sum of list: sum(1_st)
+Join list of strings: " ".join(lst)
+Create list of lists: matrix = [[0 for _ in range(5) for _ in range(5)]]

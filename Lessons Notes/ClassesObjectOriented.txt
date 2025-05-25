@@ -1,0 +1,21 @@
+APPUNTI SU CLASSI E OBJECT-ORIENTED PROGRAMMING:
+
+Definire una classe: class ClassName: pas
+Creare un instanza: obj = ClassName()
+Definire un construttore: def__init__(self, param): self.paramm = param
+Definire un metodo: def method_name(self): pass
+Definire una classe di metodo: @classmethod def class_method(): pass
+Definire uno statico metodo: @classmethod def static_method(): pass
+Inheritance: class ChildClass(ParentClass): pass
+Multiple inheritance: class ChildClass(parent1, parent2): pass
+Call superclass method: super().method_name()
+Property decorator: @property def prop_name(self): return self.prop
+Setter decorator: @prop_name.setter def prop_name(self, value): self._prop = value
+Abstract base class: from abc import ABC, abstractmethod; class AbstractClass(ABC): @abstractmethod def abstract_method(self): pass
+Dataclass: from dataclasses import dataclasses; @dataclasses class Point: x: float; y: float
+Method overriding: def method_name(self): # Override parent method 
+Private attribute: self._ _private_attr = value
+Name mangling: obj._ClassName_ _private_attr
+Duck typing: if hasattr(obj, 'method_name'): obj.method_name()
+Context manager class: class ContextManager: def _ _enter_ _(self): pass; def __exit__(self, exc_type, exc_value, traceback): pass
+Metaclass: class Meta(type): pass; class MyClass(metaclass=Meta): pass

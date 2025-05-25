@@ -1,0 +1,24 @@
+APPUNTI METODI DEI DIZIONARI IN PYTHON:
+
+Create dictionary: d = {"key": "value"}
+Create dictionary with dict(): d = dict(key= "value")
+Access value: value = d["key"]
+Access value with default: value = d.get("key", "default")
+Add/update key-value pair: d["new_key"] = "new_value"
+Update dictionary: d.update({"key1": "value1", "key2": "value2" })
+Remove key-value pair: del d["key"]
+Remove and return value: value = d.pop("key")
+Remove and return last item: item = d.popitem()
+Get keys: keys= d.keys()
+Get values: values = d.values()
+Get key-value pair: items = d.items()
+Clear dictionary: d.clear()
+Copy dictionary: new_d= d.copy()
+Deep copy dictionary: import copy; new_d = copy.deepcopy(d)
+Check if key in dictionary: "key" in d
+Dictionary comprehension: squares = {x: x**2 for x in range(5)}
+Merge dictionaries: merged = {**dict1, **dict2}
+Get value of nested dictionary: value = d['outer_key']['inner_key']
+Default dictionary: from collection import defaultdict; dd = defaultdict(int)
+Ordered dictionary: from collections import OrderedDict; od = OrderedDict()
+Counter dictionary: from collections import Counter; c = Counter(['a', 'b', 'c', 'c', 'b', 'a'])

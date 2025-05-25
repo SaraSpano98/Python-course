@@ -1,0 +1,20 @@
+APPUNTI CONTROL FLOW IN PYTHON: 
+
+If statement:  if condition: do_something()
+If-else  statement: if condition: do_something() else: do_other_thing()
+If-else-elif statement: if condition1: do_something() elif condition2: do_other_thing() else: do_default()
+Ternary operator: result = x if condition else y
+For loop: for item in iterable: do_something()
+For loop with index: for index, item in enumerate(iterable): do_something()
+For loop with range: for i in range(5): do_something
+While loop: while condition: do_something
+Break from loop: if condition: break
+Continue to next iteration: if condition: continue
+Else clause in for loop: for item  in iterable: do_something() else: no_break_occurred()
+Else cluase in while loop: while condition: do_something() else: condition_is_false()
+Pass statement: if condition: pass
+Match-case: match value: case pattern: do_something()
+Loop over multiple lists: for item1, item2, in zip (list1, list2) : do_something()
+Nested loops: for i in range(3): for j in range(3): print(i, j)
+List comprehension with if: [x for x in range(10) if x % 2== 0]
+Dictionary comprehension with if: {x: x**2 for x in range(5) if x % 2 == 0}
